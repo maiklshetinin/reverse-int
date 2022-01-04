@@ -1,5 +1,5 @@
-function reverse(number){
-    let result=number.toString().split('').reverse().join('')
+module.exports = function reverse (n) {
+    let result=n.toString().split('').reverse().join('')
 
-return  (Number(result))
+    return  (Number(result)) 
 }
